@@ -15,28 +15,27 @@ body {
   font-size: 1.8rem;
 }
 
-.profil__input {
+.profil__input{
   height: 80vh;
 }
 
-.variable a {
+
+.variable a{
   text-decoration: none;
 }
 
-.variable h2,
-h5,
-h6,
-.h6,
-label {
+
+.variable h2, h5, h6, .h6, label {
   font-size: 1.3rem;
 }
 .variable .form-control {
   font-size: 1.5rem;
 }
 
-.variable .btn {
+.variable .btn{
   font-size: 1.5rem;
 }
+
 
 .variable ::placeholder {
   color: rgba(64, 89, 130, 0.55);
@@ -89,40 +88,48 @@ label {
   color: #00ffb2;
 }
 /* End profil 2 */
+  
 
-/*page-4*/
 
-.login__table {
-  height: 100vh;
+  /*page-4*/
+
+.login__table{
+  height: 100vh; 
   background-color: white;
 }
 
-.login__debet {
+.login__debet{
+  
   padding: 2rem 2.5rem 1rem 2.5rem;
   display: flex;
 }
 
-.login__table .login__debet span {
+
+.login__table .login__debet  span{
   display: inline-block;
   font-weight: bolder;
   font-size: 17px;
   line-height: 25px;
   width: 100%;
-  /* identical to box height */
+/* identical to box height */
   color: #405982;
   margin: 2px 10px;
 }
 
-.login__lebel {
-  margin: 30px 30px 30px 30px;
-}
+  .login__lebel{
+    margin: 30px 30px 30px 30px;
 
-.login__table-input input {
-  font-size: 1.5rem;
-}
+  }
+
+  .login__table-input input{
+    font-size: 1.5rem;
+  }
+
+
+
 
 @media screen and (max-width: 992px) {
-  #table__plugin {
+  #table__plugin{
     overflow: hidden;
     overflow-y: inherit;
     overflow-x: scroll;
@@ -130,9 +137,11 @@ label {
   }
 }
 
+
 /*Manuel order*/
 
-#manual-order {
+
+#manual-order{
   /* background-color: #e5e5e5; */
   width: 100%;
 }
@@ -140,7 +149,9 @@ label {
   background-color: white;
 } */
 
-.list-group {
+
+
+.list-group{
   font-size: 1.4rem;
 }
 
@@ -244,6 +255,8 @@ label {
     margin-left: 8rem;
   }
 }
+
+
 
 /* Amazon FBA */
 .shadowBox {
@@ -432,3 +445,11 @@ select:required:invalid {
 /* End Ship Lounge */
 
 /* page-style */
+
+
+
+
+
+
+
+  /* page-style */

@@ -60,8 +60,22 @@
 
 
 
+
 .header__item-link {
     color: #fff;
+}
+
+
+.buy__info {
+    padding: 1rem 2rem;
+    background: #fff;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: auto;
+    display: none;
+    transition: .5s ease-in;
 }
 
 
@@ -90,7 +104,11 @@
 
 
 .input__above-text {
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #405982;
+    margin-bottom: .5rem;
 }
 
 .input__below-text {
@@ -109,6 +127,52 @@
 .color__text {
     color: var(--color-text);
 }
+
+
+.bg-pink {
+    background: #E85AFF;
+    width: 80%;
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media screen and(max-width:578px) {
+    .bg-pink {
+        width: 100%;
+    }
+}
+
+
+.bg-light {
+    width: 80%;
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #677094;
+}
+
+@media screen and(max-width:578px) {
+    .bg-light {
+        width: 100%;
+    }
+}
+
+
+
+
+// .btn__buy-tab--active {
+//     background: #D9D9D9;
+//     border: 1px solid rgba(0, 0, 0, 0.2);
+//     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+//     border-radius: 5px 5px 0px 0px;
+// }
+
+
+// .operations__content-active {}
+
+
 
 
 

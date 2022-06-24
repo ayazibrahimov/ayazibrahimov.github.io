@@ -50,7 +50,7 @@ p {
     margin-top: 3rem; }
   .drop__box {
     width: 30% !important;
-    top: 13% !important;
+    top: 10% !important;
     right: 38% !important; }
   .page__progress {
     margin-top: 2rem;
@@ -62,7 +62,8 @@ p {
   #balance__container {
     max-width: 871px; }
   .w-100 {
-    width: 110% !important; } }
+    width: 100% !important;
+    margin: 0; } }
 
 @media screen and (max-width: 790px) {
   .table__datas {
@@ -81,7 +82,7 @@ p {
   .header__input-search {
     width: 100% !important; }
   .page__2 {
-    width: 93%;
+    width: 100%;
     margin-top: 5rem; }
   #balance__tabs {
     max-width: 720px; }
@@ -146,14 +147,14 @@ p {
 
 @media screen and (max-width: 500px) {
   .burger__menu {
-    width: 60% !important; }
+    width: 70% !important; }
   .fnav__box {
     padding-bottom: 3rem; }
   .fnav__input {
     width: 61% !important;
     position: absolute;
-    top: 11%;
-    left: 32%; }
+    top: 9%;
+    left: 25%; }
   .header__item-list {
     padding: 0 .6rem; }
   .header__icons {
@@ -301,20 +302,12 @@ custom-file-input {
   font-size: 1.8rem;
   border: none; }
 
-.bg-pink {
-  background: #E85AFF;
-  width: 80%;
-  padding: 0.8rem;
-  text-align: center;
-  border-radius: 5px;
-  color: #fff; }
-
 @media screen and (max-width: 992px) {
   .bg-pink {
     width: 100%; } }
 
 input[type="file"] {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-top: .4rem; }
 
 textarea {
@@ -336,6 +329,25 @@ input[type="file"]::file-selector-button {
 
 input[type="file"]:hover::file-selector-button {
   background: #35c9f5; }
+
+.buy__tab {
+  font-size: 1.7rem;
+  padding: 0.8rem 1.2rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 5px 5px 0px 0px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #608ed7;
+  transition: .2s ease; }
+
+.buy-tab--active {
+  background: #D9D9D9;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0px 0px;
+  color: #405982; }
 
 .steps {
   list-style: none;
@@ -453,6 +465,17 @@ input[type="file"]:hover::file-selector-button {
 .header__item-link {
   color: #fff; }
 
+.buy__info {
+  padding: 1rem 2rem;
+  background: #fff;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: auto;
+  display: none;
+  transition: .5s ease-in; }
+
 .show {
   display: block; }
 
@@ -471,7 +494,11 @@ input[type="file"]:hover::file-selector-button {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06); }
 
 .input__above-text {
-  font-size: 1.5rem; }
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #405982;
+  margin-bottom: .5rem; }
 
 .input__below-text {
   font-size: 1.5rem; }
@@ -484,6 +511,29 @@ input[type="file"]:hover::file-selector-button {
 
 .color__text {
   color: var(--color-text); }
+
+.bg-pink {
+  background: #E85AFF;
+  width: 80%;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff; }
+
+@media screen and (max-width: 578px) {
+  .bg-pink {
+    width: 100%; } }
+
+.bg-light {
+  width: 80%;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 5px;
+  color: #677094; }
+
+@media screen and (max-width: 578px) {
+  .bg-light {
+    width: 100%; } }
 
 header {
   background: linear-gradient(88.78deg, rgba(106, 137, 231, 0.9) -4.73%, rgba(102, 171, 231, 0.9) 109.52%);
@@ -550,7 +600,6 @@ nav {
   padding: 3rem 0;
   margin-top: -3rem;
   border-radius: 0.5rem;
-  box-shadow: var(--color-shadow);
   z-index: 200; }
 
 .navigation__box {
@@ -608,7 +657,12 @@ nav {
   display: flex;
   justify-content: center; }
   .navigation__image img {
-    width: 25%; }
+    width: 50%;
+    margin: 1.8rem 0; }
+
+.navigation__logo img {
+  width: 60%;
+  margin-bottom: 20px; }
 
 .color {
   background-color: var(--color-grey-light-1);
@@ -617,7 +671,7 @@ nav {
 
 .burger__menu {
   position: absolute;
-  top: 16%;
+  top: 4%;
   left: 0;
   width: calc(100% - 65%);
   transform: translateX(-100%);
@@ -642,7 +696,7 @@ nav {
   transition: ease .5s; }
 
 .fnav {
-  padding: 5rem 1rem;
+  padding: 2rem .7rem 4rem .7rem;
   background: linear-gradient(88.78deg, rgba(106, 137, 231, 0.9) -4.73%, rgba(102, 171, 231, 0.9) 109.52%);
   display: none;
   transition: ease-in-out 3s; }
@@ -1313,11 +1367,12 @@ nav {
   .courier__input {
     padding-top: 1rem;
     margin-top: 2rem;
-    box-shadow: 0px 4px 15px 0px #0000001A;
     background-color: #fff;
     width: 100%;
     height: 100%;
-    padding: 1.5rem 2rem; }
+    padding: 1.5rem 2rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); }
     .courier__input .demand__box {
       width: 3rem;
       height: 3rem;
@@ -1338,14 +1393,14 @@ nav {
   .courier__input-box {
     margin-top: 2rem; }
     .courier__input-box h6 {
-      font-size: 1.8rem;
-      font-weight: 400;
+      font-weight: 500;
+      font-size: 16px;
       line-height: 19px;
       color: #405982; }
     .courier__input-box .form-select {
-      width: 95%; }
+      width: 100%; }
     .courier__input-box .form-control {
-      width: 95%; }
+      width: 100%; }
   .courier__input-textare {
     margin-top: 3rem; }
 
@@ -1405,3 +1460,38 @@ nav {
     font-size: 12px;
     line-height: 14px;
     color: rgba(0, 0, 0, 0.41); }
+
+.buy padding {
+  padding: 0 .8rem 1rem .8rem; }
+
+.buy__info-select .form-select {
+  font-size: 1.6rem; }
+
+.buy__info-address h2 {
+  margin-top: 4rem;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #405982; }
+
+.buy__info-address--button {
+  padding: .6rem .6rem;
+  border: none;
+  background: #FF912C;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center; }
+  .buy__info-address--button span {
+    font-size: 1.5rem; }
+
+.buy input[type='checkbox'] {
+  accent-color: #fff; }
