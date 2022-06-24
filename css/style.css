@@ -92,8 +92,6 @@ p {
     width: 100%; }
   .balance__box-text {
     margin-left: .8rem !important; }
-  img {
-    width: 55%; }
   .balance__box-text p {
     font-size: 1.6rem !important; }
   .balance__box {
@@ -218,7 +216,6 @@ p {
   /* Hidden by default */
   width: 100%;
   /* Full width (cover the whole page) */
-  height: 100%;
   /* Full height (cover the whole page) */
   top: 0;
   left: 0;
@@ -677,7 +674,7 @@ nav {
   transform: translateX(-100%);
   z-index: 500;
   height: 100%;
-  transition: ease .5s; }
+  transition: ease .3s; }
 
 .burger__menu-visible {
   transform: translateX(0%); }
