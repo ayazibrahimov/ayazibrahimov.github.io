@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // bu 1 remin faiz derecesini gosderir
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: var(--color-page-background);
+    overflow-x:hidden;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    color: #405982;
+    margin-bottom: 0;
+}
+
+
+
+
+
+:root {
+
+    --color-white-thin: #CADBFE;
+    --color-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --color-primary-blue: #3B69E4;
+    --color-grey-light-1: #FB985C;
+    --color-page-background: #E5E5E5;
+    --color-main-button: #3B69E4;
+    --color-text:#4878D1;
+
+    --color-burger-btn :linear-gradient(93.84deg, rgba(251, 152, 92, 0.88) -42.66%, rgba(255, 180, 6, 0.88) 144.99%);
+    // --color-primary: #eb2f64;
+    // --color-primary-light: #FF3366;
+    // --color-primary-dark: #BA265D;
+
+    // --color-grey-light-2: #f4f2f2;
+    // --color-grey-light-3: #f0eeee;
+    // --color-grey-light-4: #ccc;
+
+    // --color-grey-dark-1: #333;
+    // --color-grey-dark-2: #777;
+    // --color-grey-dark-3: #999;
+
+
+    --color-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
+    --line: 1px solid var(--color-grey-light-2);
+}
