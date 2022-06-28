@@ -1558,12 +1558,12 @@ nav {
     padding: .2rem 1.4rem; }
 
 #display_image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 1px solid black;
   background-size: cover;
-  background-position: inherit;
+  background-position: center;
   margin-top: 2rem;
   background-repeat: no-repeat; }
 
