@@ -1571,9 +1571,12 @@ nav {
   .stock-input__above-text {
     font-size: 11px; }
   .stock__flexed {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
+    -webkit-align-items: end;
     align-items: end;
+    -webkit-justify-content: end;
     justify-content: end; }
   .stock__btned {
     padding: 0.4rem 1.6rem;

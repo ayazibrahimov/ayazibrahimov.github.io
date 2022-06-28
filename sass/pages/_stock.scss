@@ -143,9 +143,12 @@
     }
 
     .stock__flexed {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
+        -webkit-align-items: end;
         align-items: end;
+        -webkit-justify-content: end;
         justify-content: end;
     }
 
