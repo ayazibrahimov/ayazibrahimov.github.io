@@ -116,13 +116,13 @@
 
 
 #display_image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 1px solid black;
     background-size: cover;
     // background: #C4C4C4;
-    background-position: center;
+    background-position: inherit;
     margin-top: 2rem;
     background-repeat: no-repeat;
 }
@@ -136,19 +136,16 @@
     // }
 }
 
-@media screen and(max-width: 500px) {
+@media screen and(max-width: 400px) {
 
     .stock-input__above-text {
         font-size: 11px;
     }
 
     .stock__flexed {
-        display: -webkit-flex;
         display: flex;
         flex-direction: column;
-        -webkit-align-items: end;
         align-items: end;
-        -webkit-justify-content: end;
         justify-content: end;
     }
 

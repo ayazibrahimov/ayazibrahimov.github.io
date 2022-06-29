@@ -33,6 +33,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+
     <link rel="stylesheet" href="css/style.css" />
 
 
@@ -345,7 +349,7 @@
 
                 <section id="courier" class="courier">
 
-                    <div  class="courier__input">
+                    <div class="courier__input">
                         <div class="page__not page__not--1">
                             <div class="page__not-box me-3">
                                 <img src="img/svg/Group (25).svg" alt="">
@@ -479,7 +483,7 @@
                                     <form action="" class="form__file">
                                         <p class="input__above-text stock-input__above-text">(PDF, Maks. 5.0. MB)</p>
                                         <input type="file" id="image_input" class="stock__image-input"
-                                            accept="image/png, image/jpg">
+                                            accept="image/png,image/svg,image/jpg,image/jpg">
 
 
                                         <div id="display_image">
@@ -512,7 +516,248 @@
                     </div>
 
 
-                
+                    <div class="inventory">
+                        <div class="container">
+                            <div class="row">
+
+
+                                <div class="col-lg-6 col-12">
+
+                                    <div class="inventory__item">
+                                        <div class="row">
+                                            <div class="col-sm-7 col-12">
+                                                <div class="inventory__image">
+                                                    <div class="inventory__image-box">
+                                                        <img src="img/svg/image 19 (1).svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-sm-5 col-12 ">
+                                                <div class="inventory__data">
+                                                    <div class="page__not page__not--1 mt-1">
+                                                        <div class="page__not-box inventory__page__not-box   me-3">
+                                                            <img src="img/svg/Group (26).svg" style="width: 40%;"
+                                                                alt="">
+                                                        </div>
+
+                                                        <h4 class="color__text inventory__page__not-text">Inventory
+                                                            Status</h4>
+
+                                                    </div>
+
+                                                    <div class="inventory__data-box ">
+                                                        <h6 class="inventory__data-box--text">Name: Mouse </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">Name: <span> Mouse</span>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">Sku Code: <span>144651321
+                                                            </span> </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">GTIP Code:
+                                                            <span>1511651651</span> </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">Product Type:
+                                                            <span>Electronic </span> </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">Parent: <span>Mouse Xs 79i
+                                                                rED</span> </h6>
+                                                    </div>
+                                                    <div class="inventory__data-box">
+                                                        <h6 class="inventory__data-box--text">Weight: <span> 1kq</span>
+                                                        </h6>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-12">
+                                                <div class="inventory__info">
+                                                    <h6 class="inventory__data-box--text">Lorem ipsum dolor, sit amet
+                                                        consectetur adipisicing elit. Quam nisi esse soluta animi
+                                                        laboriosam error quidem repellat maxime, accusamus ab!</h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="inventory__item  inventory__item-chart">
+
+                                        <div class="page__not page__not--1 mt-1">
+                                            <div class="page__not-box inventory__page__not-box   me-3">
+                                                <img src="img/svg/Group (27).svg" style="width: 40%;" alt="">
+                                            </div>
+
+                                            <h4 class="color__text inventory__page__not-text">Inventory
+                                                Statistic</h4>
+
+                                        </div>
+
+                                        <div class="inventory__barchart">
+
+                                            <div class="inventory__barchart-box">
+                                                <canvas id="myChart" class="inventory__myChart"
+                                                    style="width:100%;width:600px"></canvas>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4 col-12 mt-3">
+                                    <div class="inventory__item inventory__item-chart ">
+
+                                        <div class="page__not page__not--1 mt-1">
+                                            <div class="page__not-box inventory__page__not-box   me-3">
+                                                <img src="img/svg2/Group 7 (1).svg" style="width: 40%;" alt="">
+                                            </div>
+
+                                            <h4 class="color__text inventory__page__not-text">Order Count</h4>
+
+                                        </div>
+
+                                        <div class="inventory__order">
+
+                                            <div class="row">
+
+                                                <div class="col-6">
+                                                    <div class="inventory__order-count">
+                                                        <h2 class="inventory__order-h2">1500</h2>
+                                                        <h4 class="inventory__order-h4"> <i
+                                                                class="fa-solid fa-arrow-trend-up"></i> 220</h4>
+
+                                                        <div class="inventory__order-time">
+                                                            <span>Passing Time</span>
+                                                        </div>
+                                                        <div class="progress inventory__order-progress"
+                                                            style="height: 5px; background:  rgba(0, 210, 255, 0.27);">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 50%; background-color: #00D2FF;"
+                                                                aria-valuenow="50" aria-valuemin="0"
+                                                                aria-valuemax="100"></div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+
+                                                    <div class="inventory__order-piechart">
+                                                        <canvas id="dataChart"
+                                                            style="width:100%;max-width:600px"></canvas>
+                                                    </div>
+
+                                                    <div class="inventory__order-text"><span>1280 pieces left</span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 col-12 mt-3">
+                                    <div class="inventory__item inventory__item-chart">
+
+                                        <div class="page__not page__not--1 mt-1">
+                                            <div class="page__not-box inventory__page__not-box me-3">
+                                                <img src="img/svg/sold-svgrepo-com 1.svg" style="width: 80%;" alt="">
+                                            </div>
+
+                                            <h4 class="color__text inventory__page__not-text">Sold</h4>
+
+                                        </div>
+
+                                        <div class="inventory__sold">
+                                            <p class="text-center mb-3">Sold:975</p>
+                                            <div class="progress mb-3" style="height: 1px;">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div
+                                                class="inventoy__data d-flex justify-content-between align-item-center">
+
+                                                <span class="inventoy__data--1">1 Feb</span>
+                                                <span class="inventoy__data--1">28 Feb</span>
+
+                                            </div>
+
+
+                                            <div class="inventory__data-box mt-3">
+                                                <h6 class="inventory__data-box--text">Sold Place: Amazon </h6>
+                                            </div>
+
+                                            <div class="inventory__data-box mt-3">
+                                                <h6 class="inventory__data-box--text">Country: USA </h6>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-4 col-12 mt-3">
+                                    <div class="inventory__item inventory__item-chart">
+
+                                        <div class="page__not page__not--1 mt-1">
+                                            <div class="page__not-box inventory__page__not-box me-3">
+                                                <img src="img/svg/barcode-svgrepo-com 1.svg" style="width: 50%;" alt="">
+                                            </div>
+
+                                            <h4 class="color__text inventory__page__not-text">Product Barcode</h4>
+
+                                        </div>
+
+
+                                        <div class="inventory__barcode">
+
+                                            <img src="./img/svg/image 20.svg" alt="">
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
 
 
 
@@ -525,8 +770,13 @@
 
 
 
+    <!-- <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/d3.js"></script> -->
 
-
+    <script src="./js/piechart.js"></script>
     <script src="js/linechart.js"></script>
     <!-- bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -535,7 +785,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
-    
+
     <!--d3js-->
     <!-- Load d3.js -->
     <!-- <script src="js/chart.js"></script> -->
@@ -543,13 +793,14 @@
     <!-- JavaScript-->
     <!-- <script src="js/tabbtn.js"></script> -->
     <script src="input.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/loadimg.js"></script>
-    <script src="js/customer.js"></script>
+
+    <!-- <script src="js/customer.js"></script> -->
+    <script src="./js/linechart.js"></script>
     <script src="js/num.js"></script>
     <script src="js/demandtabs.js"></script>
+    <script src="js/nav.js"></script>
     <!-- <script src="./js/linechart.js"></script> -->
-    <script src="js/courier.js"></script>
+    <!-- <script src="js/courier.js"></script> -->
     <!-- <script  src="js/index.js"></script>
     <script src="js/d3.js"></script>
     <script src="js/nav.js"></script>

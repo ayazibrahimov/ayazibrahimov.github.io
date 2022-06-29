@@ -27,6 +27,13 @@
     }
 
 
+
+    &__image-box {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     &__page__not-box {
         width: 3rem;
         height: 3rem;
@@ -126,22 +133,97 @@
         right: -13%;
     }
 
-    &__order-barchart {}
+    &__order-piechart {}
+
+
+    &__order-text {
+        text-align: center;
+
+
+        span {
+            display: inline-block;
+            margin-top: 2.2rem;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: rgba(64, 89, 130, 0.45);
+
+        }
+    }
+
+    &__order-progress{
+        margin-top: .8rem;
+    }
+
+
+
+
+    &__sold {
+        margin-top: 2rem;
+
+        p {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            color: #405982;
+        }
+    }
+
+
+    &__data--1 {
+
+        display: inline-block;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #405982;
+
+    }
 
 
 
 
 
 
+    &__barcode {
 
 
+        img {
+            margin-top: 2rem;
+            width: 100%;
+        }
+
+    }
 
 
+}
 
+@media screen and(max-width:992px) {
+    .inventory__myChart {
+        height: 240px !important;
+    }
+
+    .inventory__item-chart {
+        margin-top: 1rem;
+    }
 }
 
 @media screen and(max-width:766px) {
     .inventory__data {
         margin-top: 1rem;
+    }
+
+    .inventory__item-chart {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and(max-width:577px) {
+    .inventory__image img {
+        width: 50%;
+    }
+
+    .inventory__myChart {
+        height: 175px !important;
     }
 }

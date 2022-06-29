@@ -1558,25 +1558,22 @@ nav {
     padding: .2rem 1.4rem; }
 
 #display_image {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 1px solid black;
   background-size: cover;
-  background-position: center;
+  background-position: inherit;
   margin-top: 2rem;
   background-repeat: no-repeat; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .stock-input__above-text {
     font-size: 11px; }
   .stock__flexed {
-    display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    -webkit-align-items: end;
     align-items: end;
-    -webkit-justify-content: end;
     justify-content: end; }
   .stock__btned {
     padding: 0.4rem 1.6rem;
@@ -1621,6 +1618,11 @@ nav {
   height: 100%; }
   .inventory__image img {
     width: 100%; }
+
+.inventory__image-box {
+  height: 100%;
+  display: flex;
+  justify-content: center; }
 
 .inventory__page__not-box {
   width: 3rem;
@@ -1687,6 +1689,52 @@ nav {
   top: 5%;
   right: -13%; }
 
+.inventory__order-text {
+  text-align: center; }
+  .inventory__order-text span {
+    display: inline-block;
+    margin-top: 2.2rem;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(64, 89, 130, 0.45); }
+
+.inventory__order-progress {
+  margin-top: .8rem; }
+
+.inventory__sold {
+  margin-top: 2rem; }
+  .inventory__sold p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #405982; }
+
+.inventory__data--1 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #405982; }
+
+.inventory__barcode img {
+  margin-top: 2rem;
+  width: 100%; }
+
+@media screen and (max-width: 992px) {
+  .inventory__myChart {
+    height: 240px !important; }
+  .inventory__item-chart {
+    margin-top: 1rem; } }
+
 @media screen and (max-width: 766px) {
   .inventory__data {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .inventory__item-chart {
+    margin-top: 2rem; } }
+
+@media screen and (max-width: 577px) {
+  .inventory__image img {
+    width: 50%; }
+  .inventory__myChart {
+    height: 175px !important; } }
