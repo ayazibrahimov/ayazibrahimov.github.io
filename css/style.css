@@ -666,6 +666,14 @@ nav {
   width: 90%;
   border-radius: 5px; }
 
+@media screen and (max-width: 1200px) {
+  .navigation__span-font {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 1100px) {
+  .navigation__span-font {
+    font-size: 1.4rem; } }
+
 .burger__menu {
   position: absolute;
   top: 4%;
@@ -673,8 +681,22 @@ nav {
   width: calc(100% - 65%);
   transform: translateX(-100%);
   z-index: 500;
-  height: 100%;
-  transition: ease .3s; }
+  height: 103%;
+  transition: ease .3s;
+  overflow-y: scroll; }
+
+.burger__menu::-webkit-scrollbar {
+  width: 10px; }
+
+.burger__menu::-webkit-scrollbar-track {
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+.burger__menu::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #e5e5e5; }
 
 .burger__menu-visible {
   transform: translateX(0%); }

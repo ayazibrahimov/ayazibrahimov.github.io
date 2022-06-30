@@ -25,7 +25,6 @@ new Chart("myChart", {
   }
 });
 
-zz
 
 
 

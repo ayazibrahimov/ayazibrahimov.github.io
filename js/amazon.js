@@ -423,15 +423,3 @@ function clicked(e) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
