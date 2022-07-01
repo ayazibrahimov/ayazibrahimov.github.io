@@ -255,8 +255,36 @@ input[type="file"]:hover::file-selector-button {
 
 
 
+.share__url {
+    border: none;
+    padding: .8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: #68D7FA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: #fff;
+}
 
 
+@media screen and(max-width:576px) {
+    .share__url {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+.share__update {
+    border: none;
+    padding: .5rem 1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background: #21E7C3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: #fff;
+}
 
 
 
