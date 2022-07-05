@@ -1,8 +1,8 @@
 @media screen and(max-width: 992px) {
 
-    // .burger__menu {
-    //     width: 50% !important;
-    // }
+    .burger__menu {
+        width: 50% !important;
+    }
 
     .page__packed {
         p {
@@ -112,9 +112,15 @@
     }
 
 
+
+    // img {
+    //     width: 55%;
+    // }
+
     .balance__box-text p {
         font-size: 1.6rem !important;
-     }
+
+    }
 
     .balance__box {
         width: 100%;
@@ -249,15 +255,10 @@
     }
 
 
-    // .drop__box {
-    //     top: 18% !important;
-    // }
-
-
     .fnav__input {
         width: 61% !important;
         position: absolute;
-        top: 9%;
+        top: 7.5%;
         left: 25%;
 
     }
@@ -271,7 +272,7 @@
     }
 
     .drop__box {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
         width: 44% !important;
         right: 31% !important;
     }

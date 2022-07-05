@@ -112,7 +112,9 @@
 
 
 .burger__menu {
- 
+    .navigation__box {
+        width: 50%;
+    }
 
     @media screen and(max-width:767px) {
         .navigation__box {

@@ -14,7 +14,8 @@ nav {
 
 
     &__box {
-        width: 98%;
+        width: 100%;
+        //   padding-left: 2rem;
         margin: 1rem 0;
         height: 3.5rem;
         display: flex;
@@ -22,6 +23,9 @@ nav {
         align-items: center;
         z-index: 600;
     }
+
+
+
 
 
 

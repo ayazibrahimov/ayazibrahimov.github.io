@@ -38,6 +38,8 @@ p {
   --line: 1px solid var(--color-grey-light-2); }
 
 @media screen and (max-width: 992px) {
+  .burger__menu {
+    width: 50% !important; }
   .page__packed p {
     font-size: 1.3rem; }
   header {
@@ -149,14 +151,14 @@ p {
   .fnav__input {
     width: 61% !important;
     position: absolute;
-    top: 9%;
+    top: 7.5%;
     left: 25%; }
   .header__item-list {
     padding: 0 .6rem; }
   .header__icons {
     margin-top: .5rem; }
   .drop__box {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     width: 44% !important;
     right: 31% !important; } }
 
@@ -243,6 +245,9 @@ p {
 .navigation__box:hover {
   border-radius: 3px;
   background: var(--color-burger-btn); }
+
+.burger__menu .navigation__box {
+  width: 50%; }
 
 @media screen and (max-width: 767px) {
   .burger__menu .navigation__box {
@@ -629,7 +634,7 @@ nav {
   z-index: 200; }
 
 .navigation__box {
-  width: 98%;
+  width: 100%;
   margin: 1rem 0;
   height: 3.5rem;
   display: flex;
@@ -747,7 +752,11 @@ nav {
   padding: 2rem .7rem 4rem .7rem;
   background: linear-gradient(88.78deg, rgba(106, 137, 231, 0.9) -4.73%, rgba(102, 171, 231, 0.9) 109.52%);
   display: none;
-  transition: ease-in-out 3s; }
+  transition: ease-in-out 3s;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem; }
   .fnav__box {
     display: flex;
     justify-content: space-between;
@@ -757,15 +766,11 @@ nav {
   @media screen and (max-width: 992px) {
     .fnav {
       display: block; }
-      .fnav .fnav__input {
-        width: 40%; }
-        .fnav .fnav__input .header__input-search {
-          width: 100%; } }
-  @media screen and (max-width: 767px) {
-    .fnav .fnav__input {
-      width: 20%; }
       .fnav .fnav__input .header__input-search {
-        width: 100%; }
+        width: 100%; } }
+  @media screen and (max-width: 767px) {
+    .fnav .fnav__input .header__input-search {
+      width: 100%; }
     .fnav .header__item-list {
       padding: 0 1rem;
       margin-top: .8rem; } }
