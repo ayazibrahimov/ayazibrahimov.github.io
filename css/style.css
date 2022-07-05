@@ -24,6 +24,9 @@ p {
   color: #405982;
   margin-bottom: 0; }
 
+.page__2 {
+  margin-top: 7rem !important; }
+
 :root {
   --color-white-thin: #CADBFE;
   --color-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
@@ -39,7 +42,7 @@ p {
 
 @media screen and (max-width: 992px) {
   .burger__menu {
-    width: 50% !important; }
+    width: 46% !important; }
   .page__packed p {
     font-size: 1.3rem; }
   header {
@@ -83,7 +86,7 @@ p {
     width: 100% !important; }
   .page__2 {
     width: 100%;
-    margin-top: 5rem; }
+    margin-top: 2rem !important; }
   #balance__tabs {
     max-width: 720px; }
   .balance__cards-box {
@@ -151,7 +154,7 @@ p {
   .fnav__input {
     width: 61% !important;
     position: absolute;
-    top: 7.5%;
+    top: 8.5%;
     left: 25%; }
   .header__item-list {
     padding: 0 .6rem; }
@@ -247,7 +250,7 @@ p {
   background: var(--color-burger-btn); }
 
 .burger__menu .navigation__box {
-  width: 50%; }
+  width: 98%; }
 
 @media screen and (max-width: 767px) {
   .burger__menu .navigation__box {
@@ -710,7 +713,7 @@ nav {
 
 .burger__menu {
   position: absolute;
-  top: 4%;
+  top: 3%;
   left: 0%;
   width: 40%;
   transform: translateX(-100%);
@@ -749,9 +752,9 @@ nav {
   transition: ease .5s; }
 
 .fnav {
+  display: none !important;
   padding: 2rem .7rem 4rem .7rem;
   background: linear-gradient(88.78deg, rgba(106, 137, 231, 0.9) -4.73%, rgba(102, 171, 231, 0.9) 109.52%);
-  display: none;
   transition: ease-in-out 3s;
   width: 100%;
   display: flex;
@@ -765,7 +768,7 @@ nav {
     width: 20%; }
   @media screen and (max-width: 992px) {
     .fnav {
-      display: block; }
+      display: block !important; }
       .fnav .fnav__input .header__input-search {
         width: 100%; } }
   @media screen and (max-width: 767px) {

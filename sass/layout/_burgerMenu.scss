@@ -1,6 +1,6 @@
 .burger__menu {
     position: absolute;
-    top: 4%;
+    top: 3%;
     left: 0%;
     width: 40%;
     transform: translateX(-100%);
@@ -57,9 +57,10 @@
 ////header --2
 
 .fnav {
+
+    display: none !important;
     padding: 2rem .7rem 4rem .7rem;
     background: linear-gradient(88.78deg, rgba(106, 137, 231, 0.9) -4.73%, rgba(102, 171, 231, 0.9) 109.52%);
-    display: none;
     transition: ease-in-out 3s;
     width: 100%;
     display: flex;
@@ -80,7 +81,7 @@
 
 
     @media screen and(max-width:992px) {
-        display: block;
+        display: block !important;
 
         .fnav__input {
             // width: 40%;
