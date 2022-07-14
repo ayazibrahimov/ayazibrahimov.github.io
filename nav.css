@@ -8,17 +8,12 @@ body {
 
 .majorData {
     background-image: url('./img/26583.svg');
-    /* display: flex; */
-    /* flex-direction: column; */
     padding: 10px 18px;
     box-sizing: border-box;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* background-position: cover; */
-    /* z-index: 0; */
 }
 
 
@@ -28,8 +23,7 @@ body {
 
 }
 
-/* background-color: grey;
-    opacity: 1; */
+
 
 .majorData__box {
     width: 100%;
@@ -226,7 +220,7 @@ body {
 
 .newA{
     text-decoration: none;
-    color: rgba(100, 85, 85, 0.973);
+    color: rgba(87, 72, 72, 0.973);
 }
 
 
