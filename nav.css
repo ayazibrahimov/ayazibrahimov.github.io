@@ -12,9 +12,12 @@ body {
     /* flex-direction: column; */
     padding: 10px 18px;
     box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-position: cover; */
     /* z-index: 0; */
 }
 
