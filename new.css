@@ -97,13 +97,13 @@ body {
     margin: 0 auto;
     border: 1px solid var(--border-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 7px;
-    /* background-color: #fff; */
+    background-color: #fff;
 
     border-radius: 35px;
     padding: 1.5rem;
     z-index: 1;
     margin: 0 25px;
-    background-image: url('img/kvadratt.svg');
+    /* background-image: url('img/kvadratt.svg'); */
     background-size: cover;
     background-position: center;
   }
