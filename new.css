@@ -243,6 +243,10 @@ body {
     margin-left: 31px;
 }
 
+.monyoImg:active{
+  background-color: #fff;
+}
+
 .arrow{
   display: inline-block;
   /* margin-bottom: 5px; */
